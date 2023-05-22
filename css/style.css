@@ -1,4 +1,74 @@
+@font-face {
+    font-family: 'Caros Soft Heavy';
+    src: url("../fonts/CarosSoftHeavy.woff");
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins-Medium.ttf");
+}
+
 body{
     background-color: #191A1C;
 }
+a{
+    text-decoration: none;
+}
 
+  .navbar-brand {
+    margin-right: auto;
+    margin-left: 20px;
+  }
+.top{
+    height: auto;
+    max-width: 100%;
+}
+  .navbar-c{
+    margin-right:auto;
+    margin-left:auto;
+  }
+.equipe{
+    color: #ffffff;
+    font-size: larger;
+}
+
+.equipe:hover{
+    color: #bdbdbd;
+}
+.playStoreBtn{
+    position: relative;
+    width: 175px;
+    height: 60px;
+}
+
+.logo{
+    position: relative;
+width: 150px;
+height: 60px;
+}
+
+.emBreve{
+    font-family: 'Caros Soft Heavy'; /* não achei a fonte pra importar*/
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12vw;
+    line-height: 15vw;
+    background-image: url("../img/emBreve.png");
+    background-repeat: fill;
+    background-position: 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+
+.texto{
+    color: #ffffff;
+    font-family: 'Poppins';
+}
+
+
+.sophis{
+    position: absolute;
+    height: 300px;
+    left: -30px;
+}
